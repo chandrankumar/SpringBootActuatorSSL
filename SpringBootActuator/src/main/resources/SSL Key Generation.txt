@@ -1,0 +1,5 @@
+
+#Run the below command on any folder and paste the generate key on resouces folder of application 
+
+
+keytool -genkey -alias ssl_test_name -keyalg RSA -keysize 2048 -validity 700 -keypass chandran -storepass chandran -keystore ssl-server.jks
